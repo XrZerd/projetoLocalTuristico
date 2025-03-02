@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+    --font-family: 'Open Sans', serif;
+    --h1: 800 36px var(--font-family);
+    --h2: 800 32px var(--font-family);
+    --h3: 800 28px var(--font-family);
+    --headline: 800 16px var(--font-family);
+    --paragraph: 300 16px var(--font-family);
+    --subtitle: 16px var(--font-family);
+}
+
+body {
+    padding-block: 88px 137px;
+    background-color: var(--background-default);
+}
+
+.container {
+    justify-items: center;
+
+    span {
+        font: var(--headline);
+        color: var(--text-headline);
+    }
+
+    h1 {
+        font: var(--h1);
+        color: var(--text-primary);
+        margin-top: 8px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font: var(--h2);
+        color: var(--text-primary);
+        margin-top: 2px;
+        margin-bottom: 8px;
+    }
+
+    h3 {
+        font: var(--h3);
+        color: var(--text-primary);
+        margin-bottom: 4px;
+    }
+
+    #first-img img {
+        width: 1120px;
+        height: 660px;
+        border-radius: 28px;
+        object-fit: cover;
+    }
+
+    .local-pics img {
+        width: 1120px;
+        height: 350px;
+        border-radius: 28px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    #first-img p {
+        max-width: 1120px;
+        max-height: 44px;
+        margin-top: 24px;
+        margin-bottom: 44px;
+        text-align: center;
+        font: var(--subtitle);
+        color: var(--text-secondary);
+        font-style: italic;
+    }
+
+    .local-pics {
+        border-bottom: solid 1px var(--border-primary);
+        margin-bottom: 64px;
+    }
+
+    .paragraph {
+        max-width: 1120px;
+        max-height: 88px;
+        font: var(--paragraph);
+        color: var(--text-secondary);
+        margin-bottom: 64px;
+    }
+
+    #conclusion {
+        text-align: center;
+    }
+}
+
+footer {
+    text-align: center;
+    color: var(--text-secondary);
+}
